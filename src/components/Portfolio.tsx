@@ -4,46 +4,46 @@ import { Button } from "@/components/ui/button";
 const Portfolio = () => {
   const projects = [
     {
-      title: "E-Commerce Fashion Store",
-      category: "WordPress & WooCommerce",
-      description: "Full-featured online store with custom product filters, payment integration, and mobile-optimized checkout experience.",
+      title: "DataPillar AI",
+      category: "AI Platform",
+      description: "Enterprise AI data platform enabling organizations to harness artificial intelligence for data-driven insights and automation.",
       image: "/placeholder.svg",
-      link: "#"
+      link: "https://datapillar.ai/"
     },
     {
-      title: "Corporate Business Website",
-      category: "Custom WordPress Theme",
-      description: "Professional corporate website with custom post types, advanced SEO optimization, and integrated blog platform.",
+      title: "Trezoro Loyalty",
+      category: "Loyalty Marketing Platform",
+      description: "Comprehensive loyalty program solution helping SMBs compete with larger merchants through formalized customer retention strategies.",
       image: "/placeholder.svg",
-      link: "#"
+      link: "https://www.trezoroloyalty.com/"
     },
     {
-      title: "Restaurant & Booking System",
-      category: "WordPress & Custom Development",
-      description: "Restaurant website with online reservation system, menu management, and integrated delivery ordering.",
+      title: "Causee",
+      category: "Marketplace Platform",
+      description: "Premium domain marketplace platform featuring expert-curated brandable domains to elevate business branding.",
       image: "/placeholder.svg",
-      link: "#"
+      link: "https://www.causee.com/"
     },
     {
-      title: "Real Estate Listings Platform",
-      category: "WordPress & Custom Plugin",
-      description: "Property listing website with advanced search filters, map integration, and lead generation forms.",
+      title: "Yellow Founder",
+      category: "Business Platform",
+      description: "Innovative platform empowering entrepreneurs and founders with tools and resources to build successful businesses.",
       image: "/placeholder.svg",
-      link: "#"
+      link: "https://www.yellowfounder.com/"
     },
     {
-      title: "SaaS Landing Page",
-      category: "React & Tailwind CSS",
-      description: "Modern, high-converting landing page for software product with animated sections and lead capture.",
+      title: "Me+U Care",
+      category: "Healthcare Platform",
+      description: "HIPAA-secure digital communication platform delivering 40-60% engagement rates and reducing healthcare outreach costs by up to 70%.",
       image: "/placeholder.svg",
-      link: "#"
+      link: "https://meucare.com/"
     },
     {
-      title: "Portfolio & Blog Site",
-      category: "WordPress & Elementor",
-      description: "Creative portfolio website for photographer with custom gallery, blog, and client testimonials.",
+      title: "AtClose",
+      category: "Enterprise Software",
+      description: "Next-generation title and escrow production software serving 21,000+ users with 50,000+ monthly closings across 50 states.",
       image: "/placeholder.svg",
-      link: "#"
+      link: "https://www.atclose.com/"
     }
   ];
 
@@ -79,9 +79,12 @@ const Portfolio = () => {
                       variant="secondary" 
                       size="sm"
                       className="w-full"
+                      asChild
                     >
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      View Project
+                      <a href={project.link} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="mr-2 h-4 w-4" />
+                        View Project
+                      </a>
                     </Button>
                   </div>
                 </div>
