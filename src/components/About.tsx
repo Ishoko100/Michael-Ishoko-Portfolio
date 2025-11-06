@@ -30,14 +30,15 @@ const About = () => {
             </div>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a freelance web developer with years of experience building custom websites 
-              that combine beautiful design with powerful functionality. I specialize in WordPress 
-              development, but I'm equally comfortable with modern frameworks and custom solutions.
+              I'm a freelance web developer and app builder with years of experience creating custom websites 
+              and applications that combine beautiful design with powerful functionality. I specialize in WordPress 
+              development and build mobile & web apps including e-commerce apps, business management tools, 
+              social platforms, booking systems, and custom enterprise solutions.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
               What sets me apart is my commitment to design accuracy, performance optimization, 
-              and collaborative approach. I don't just build websites—I create digital experiences 
+              and collaborative approach. I don't just build websites and apps—I create digital experiences 
               that help businesses grow and succeed online.
             </p>
             

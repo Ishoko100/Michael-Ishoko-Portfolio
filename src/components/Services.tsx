@@ -1,4 +1,4 @@
-import { Globe, Wrench, Rocket, Shield, Search, Palette } from "lucide-react";
+import { Globe, Wrench, Rocket, Shield, Search, Palette, Smartphone } from "lucide-react";
 
 const Services = () => {
   const services = [
@@ -31,6 +31,11 @@ const Services = () => {
       icon: Shield,
       title: "E-Commerce Solutions",
       description: "Complete online store setup with WooCommerce or custom platforms, payment integration, and inventory management."
+    },
+    {
+      icon: Smartphone,
+      title: "Mobile & Web App Development",
+      description: "Custom applications for any purpose—e-commerce apps, booking systems, social platforms, business tools, and enterprise solutions."
     }
   ];
 

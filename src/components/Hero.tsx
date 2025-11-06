@@ -32,10 +32,10 @@ const Hero = () => {
               Michael Ishoko
             </h1>
             <h2 className="text-xl md:text-2xl font-medium text-blue-100">
-              Website Developer & WordPress Specialist
+              Website Developer, WordPress Specialist & App Builder
             </h2>
             <p className="text-lg md:text-xl text-blue-50 max-w-2xl mx-auto leading-relaxed">
-              Building fast, responsive, and SEO-ready websites that turn ideas into reality
+              Building fast, responsive websites and powerful mobile & web apps that turn ideas into reality
             </p>
           </div>
           
