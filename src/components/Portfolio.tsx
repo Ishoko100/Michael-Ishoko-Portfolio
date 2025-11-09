@@ -1,5 +1,11 @@
 import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import datapillarImg from "@/assets/projects/datapillar.png";
+import trezoroImg from "@/assets/projects/trezoro.png";
+import causeeImg from "@/assets/projects/causee.png";
+import yellowfounderImg from "@/assets/projects/yellowfounder.png";
+import meucareImg from "@/assets/projects/meucare.png";
+import atcloseImg from "@/assets/projects/atclose.png";
 
 const Portfolio = () => {
   const projects = [
@@ -7,42 +13,42 @@ const Portfolio = () => {
       title: "DataPillar AI",
       category: "AI Platform",
       description: "Enterprise AI data platform enabling organizations to harness artificial intelligence for data-driven insights and automation.",
-      image: "/placeholder.svg",
+      image: datapillarImg,
       link: "https://datapillar.ai/"
     },
     {
       title: "Trezoro Loyalty",
       category: "Loyalty Marketing Platform",
       description: "Comprehensive loyalty program solution helping SMBs compete with larger merchants through formalized customer retention strategies.",
-      image: "/placeholder.svg",
+      image: trezoroImg,
       link: "https://www.trezoroloyalty.com/"
     },
     {
       title: "Causee",
       category: "Marketplace Platform",
       description: "Premium domain marketplace platform featuring expert-curated brandable domains to elevate business branding.",
-      image: "/placeholder.svg",
+      image: causeeImg,
       link: "https://www.causee.com/"
     },
     {
       title: "Yellow Founder",
       category: "Business Platform",
       description: "Innovative platform empowering entrepreneurs and founders with tools and resources to build successful businesses.",
-      image: "/placeholder.svg",
+      image: yellowfounderImg,
       link: "https://www.yellowfounder.com/"
     },
     {
       title: "Me+U Care",
       category: "Healthcare Platform",
       description: "HIPAA-secure digital communication platform delivering 40-60% engagement rates and reducing healthcare outreach costs by up to 70%.",
-      image: "/placeholder.svg",
+      image: meucareImg,
       link: "https://meucare.com/"
     },
     {
       title: "AtClose",
       category: "Enterprise Software",
       description: "Next-generation title and escrow production software serving 21,000+ users with 50,000+ monthly closings across 50 states.",
-      image: "/placeholder.svg",
+      image: atcloseImg,
       link: "https://www.atclose.com/"
     }
   ];
